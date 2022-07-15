@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+
+  api-orchestrator:    
+    build: . 
+    container_name: api-orchestrator
+    hostname: api-orchestrator
+  
+  
+  
+    
